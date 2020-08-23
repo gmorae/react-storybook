@@ -9,6 +9,7 @@
     "build-storybook": "build-storybook",
     "build": "tsc -p ."
   },
+  "publishConfig": { "registry": "https://www.npmjs.com/package/react-components-testing" }
   "dependencies": {
     "@storybook/addon-centered": "^5.3.18",
     "@storybook/addon-info": "^5.3.18",
