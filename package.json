@@ -1,0 +1,31 @@
+{
+  "name": "react-components-testing",
+  "version": "1.0.1",
+  "author": "Gabriel Moraes Martins",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@storybook/addon-centered": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/addon-storysource": "^6.0.16",
+    "@storybook/addon-viewport": "^6.0.16",
+    "@storybook/react": "^6.0.16",
+    "babel-loader": "^8.1.0",
+    "polished": "^3.5.1",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-icons": "^3.9.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
+    "ts-loader": "^8.0.2",
+    "typescript": "^4.0.2"
+  }
+}
